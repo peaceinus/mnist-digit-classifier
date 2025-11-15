@@ -31,7 +31,7 @@ Input (28x28) → Flatten → Dense(128) → ReLU → Dropout(0.2)
 ## 📦 Installation
 ```bash
 # Clone repository
-git clone https://github.com/YOUR-USERNAME/mnist-digit-classifier.git
+git clone https://github.com/peaceinus/mnist-digit-classifier.git
 cd mnist-digit-classifier
 
 # Create conda environment
