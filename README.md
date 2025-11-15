@@ -67,3 +67,4 @@ mnist-digit-classifier/
 ---
 
 **Built with ❤️ on Pop!_OS COSMIC**
+# mnist-digit-classifier
