@@ -1,34 +1,50 @@
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
 *.so
 .Python
-env/
-venv/
 *.egg-info/
 dist/
 build/
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
 
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data
+# Data (usually too large for Git)
 data/raw/*
 data/processed/*
+*.csv
+*.h5
+*.pkl
+*.pickle
+
+# Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Models
+# Models (can be large)
 models/*.pth
 models/*.pt
 models/*.h5
+*.onnx
+
+# Keep small test models
+!models/README.md
 
 # Results
 results/*.png
 results/*.jpg
 results/*.pdf
+*.log
 
 # IDE
 .vscode/
@@ -37,6 +53,14 @@ results/*.pdf
 *.swo
 *~
 
-# System
+# OS
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Conda
+*.conda
+conda-meta/
